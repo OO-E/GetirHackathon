@@ -1,0 +1,6 @@
+framework module BirdHUD {
+  umbrella header "BirdHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

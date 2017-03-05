@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (3.4.1)
+  - BirdHUD (1.0)
+  - CWStatusBarNotification (2.3.4)
+  - FlatColor (1.1)
+  - IQKeyboardManagerSwift (4.0.4)
+  - OneSignal (2.3.5)
+  - SnapKit (0.21.1)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (= 3.4.1)
+  - BirdHUD
+  - CWStatusBarNotification (= 2.3.4)
+  - FlatColor
+  - IQKeyboardManagerSwift (= 4.0.4)
+  - OneSignal
+  - SnapKit (= 0.21.1)
+  - SwiftyJSON (= 2.3.2)
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  BirdHUD: c1f00c7a17d9b070740f66757083c437f83e013a
+  CWStatusBarNotification: 3fec41edcb0ae3677d9febfcb9632d8bdf52294c
+  FlatColor: a9cc6991f1c75a940df70109bdc34c5db341b8ee
+  IQKeyboardManagerSwift: e0964d04d6a29b71016fd346dca13ecb80a2823a
+  OneSignal: 4cb42948ebc141bd5deb54d3fda25105db94f6d4
+  SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 0938da6ee16d2c961f6d461220744c0b15e4e939
+
+COCOAPODS: 1.0.1

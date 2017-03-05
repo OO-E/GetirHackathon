@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3846C602E597F8B6D08E4065 /* Pods_GetirHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A00AAD7959D65510C252CAB /* Pods_GetirHackathon.framework */; };
 		EFBB6AC71E6C629A00483EFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6AC61E6C629A00483EFD /* AppDelegate.swift */; };
 		EFBB6AC91E6C629A00483EFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6AC81E6C629A00483EFD /* ViewController.swift */; };
 		EFBB6ACE1E6C629A00483EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBB6ACD1E6C629A00483EFD /* Assets.xcassets */; };
 		EFBB6AD11E6C629A00483EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBB6ACF1E6C629A00483EFD /* LaunchScreen.storyboard */; };
 		EFBB6ADC1E6C629A00483EFD /* GetirHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6ADB1E6C629A00483EFD /* GetirHackathonTests.swift */; };
 		EFBB6AE71E6C629A00483EFD /* GetirHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6AE61E6C629A00483EFD /* GetirHackathonUITests.swift */; };
+		EFBB6AF61E6C64FE00483EFD /* RequestConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6AF51E6C64FE00483EFD /* RequestConnection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29F3898CD1FFB388F2F85D13 /* Pods-GetirHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirHackathon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GetirHackathon/Pods-GetirHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		4A00AAD7959D65510C252CAB /* Pods_GetirHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetirHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C936CDD261D20812ABBA95E4 /* Pods-GetirHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetirHackathon.release.xcconfig"; path = "Pods/Target Support Files/Pods-GetirHackathon/Pods-GetirHackathon.release.xcconfig"; sourceTree = "<group>"; };
 		EFBB6AC31E6C629A00483EFD /* GetirHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetirHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBB6AC61E6C629A00483EFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFBB6AC81E6C629A00483EFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +50,7 @@
 		EFBB6AE21E6C629A00483EFD /* GetirHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetirHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBB6AE61E6C629A00483EFD /* GetirHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetirHackathonUITests.swift; sourceTree = "<group>"; };
 		EFBB6AE81E6C629A00483EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBB6AF51E6C64FE00483EFD /* RequestConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConnection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3846C602E597F8B6D08E4065 /* Pods_GetirHackathon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		062DDAEA7A985EBACD99EFCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A00AAD7959D65510C252CAB /* Pods_GetirHackathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B3229365C9995621A8990B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29F3898CD1FFB388F2F85D13 /* Pods-GetirHackathon.debug.xcconfig */,
+				C936CDD261D20812ABBA95E4 /* Pods-GetirHackathon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EFBB6ABA1E6C629A00483EFD = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +103,8 @@
 				EFBB6ADA1E6C629A00483EFD /* GetirHackathonTests */,
 				EFBB6AE51E6C629A00483EFD /* GetirHackathonUITests */,
 				EFBB6AC41E6C629A00483EFD /* Products */,
+				2B3229365C9995621A8990B1 /* Pods */,
+				062DDAEA7A985EBACD99EFCE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +121,7 @@
 		EFBB6AC51E6C629A00483EFD /* GetirHackathon */ = {
 			isa = PBXGroup;
 			children = (
+				EFBB6AF41E6C64DF00483EFD /* RequestConnection */,
 				EFBB6AC61E6C629A00483EFD /* AppDelegate.swift */,
 				EFBB6AC81E6C629A00483EFD /* ViewController.swift */,
 				EFBB6ACD1E6C629A00483EFD /* Assets.xcassets */,
@@ -122,6 +149,14 @@
 			path = GetirHackathonUITests;
 			sourceTree = "<group>";
 		};
+		EFBB6AF41E6C64DF00483EFD /* RequestConnection */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB6AF51E6C64FE00483EFD /* RequestConnection.swift */,
+			);
+			name = RequestConnection;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFBB6AEB1E6C629A00483EFD /* Build configuration list for PBXNativeTarget "GetirHackathon" */;
 			buildPhases = (
+				82A98CD6E2007124FB5BB012 /* [CP] Check Pods Manifest.lock */,
 				EFBB6ABF1E6C629A00483EFD /* Sources */,
 				EFBB6AC01E6C629A00483EFD /* Frameworks */,
 				EFBB6AC11E6C629A00483EFD /* Resources */,
+				BEB9837FA2A7038507DE2D54 /* [CP] Embed Pods Frameworks */,
+				A58B34FD704EA8A294FAEC73 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,11 +285,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82A98CD6E2007124FB5BB012 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A58B34FD704EA8A294FAEC73 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetirHackathon/Pods-GetirHackathon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEB9837FA2A7038507DE2D54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GetirHackathon/Pods-GetirHackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFBB6ABF1E6C629A00483EFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBB6AF61E6C64FE00483EFD /* RequestConnection.swift in Sources */,
 				EFBB6AC91E6C629A00483EFD /* ViewController.swift in Sources */,
 				EFBB6AC71E6C629A00483EFD /* AppDelegate.swift in Sources */,
 			);
@@ -385,6 +472,7 @@
 		};
 		EFBB6AEC1E6C629A00483EFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F3898CD1FFB388F2F85D13 /* Pods-GetirHackathon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GetirHackathon/Info.plist;
@@ -396,6 +484,7 @@
 		};
 		EFBB6AED1E6C629A00483EFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C936CDD261D20812ABBA95E4 /* Pods-GetirHackathon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GetirHackathon/Info.plist;
@@ -470,6 +559,7 @@
 				EFBB6AED1E6C629A00483EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFBB6AEE1E6C629A00483EFD /* Build configuration list for PBXNativeTarget "GetirHackathonTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +568,7 @@
 				EFBB6AF01E6C629A00483EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFBB6AF11E6C629A00483EFD /* Build configuration list for PBXNativeTarget "GetirHackathonUITests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +577,7 @@
 				EFBB6AF31E6C629A00483EFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
