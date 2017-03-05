@@ -19,12 +19,18 @@ class ViewController: UIViewController {
                      "name":"Orhan Özgün Ergen",
                      "gsm":"905364680029"
         ]
-        RequestConnenction.sharedInstance().connectionPOST(Api.getElements, parameter: param, complateBlock: { (json) in
+        RequestConnenction.sharedInstance().connectionPOST(Service.getElements, parameter: param, complateBlock: { (json) in
             
-                print(json)
+                ApiParse.parseElements(json, complate: { (obj) in
+                    
+                        self.drawElement(obj)
+                
+                    }, error: { (msg) in
+                        print(msg)
+                })
             
             }) { (error) in
-                
+                print("Servis Hatası")
         }
         
     }
@@ -34,6 +40,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    func drawElement(obj:Elements){
+    
+        
+    }
 
 }
 

@@ -11,10 +11,9 @@ import Alamofire
 import SwiftyJSON
 
 
-class Api {
-    
-    static var getElements = "getElements"
-    
+enum Service : String {
+    case getElements = "getElements"
+
 }
 
 
@@ -33,9 +32,9 @@ class RequestConnenction {
         return rc
     }
     
-    func connectionPOST(service:String,parameter:NSDictionary,complateBlock:(json:JSON)->(),errorBlock:(error:NSError)->()){
+    func connectionPOST(service:Service,parameter:NSDictionary,complateBlock:(json:JSON)->(),errorBlock:(error:NSError)->()){
         
-        let urlStr = String(format:"%@%@", self.serviceURL , service)
+        let urlStr = String(format:"%@%@", self.serviceURL , service.rawValue)
         let URL = NSURL(string:String(urlStr))!
         
         

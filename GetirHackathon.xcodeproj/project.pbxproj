@@ -15,6 +15,8 @@
 		EFBB6ADC1E6C629A00483EFD /* GetirHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6ADB1E6C629A00483EFD /* GetirHackathonTests.swift */; };
 		EFBB6AE71E6C629A00483EFD /* GetirHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6AE61E6C629A00483EFD /* GetirHackathonUITests.swift */; };
 		EFBB6AF61E6C64FE00483EFD /* RequestConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6AF51E6C64FE00483EFD /* RequestConnection.swift */; };
+		EFBB6AF91E6C695000483EFD /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6AF81E6C695000483EFD /* Elements.swift */; };
+		EFBB6AFB1E6C76A100483EFD /* ApiParse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBB6AFA1E6C76A100483EFD /* ApiParse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		EFBB6AE61E6C629A00483EFD /* GetirHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetirHackathonUITests.swift; sourceTree = "<group>"; };
 		EFBB6AE81E6C629A00483EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFBB6AF51E6C64FE00483EFD /* RequestConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestConnection.swift; sourceTree = "<group>"; };
+		EFBB6AF81E6C695000483EFD /* Elements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elements.swift; sourceTree = "<group>"; };
+		EFBB6AFA1E6C76A100483EFD /* ApiParse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiParse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +125,7 @@
 		EFBB6AC51E6C629A00483EFD /* GetirHackathon */ = {
 			isa = PBXGroup;
 			children = (
-				EFBB6AF41E6C64DF00483EFD /* RequestConnection */,
+				EFBB6AF41E6C64DF00483EFD /* Model */,
 				EFBB6AC61E6C629A00483EFD /* AppDelegate.swift */,
 				EFBB6AC81E6C629A00483EFD /* ViewController.swift */,
 				EFBB6ACD1E6C629A00483EFD /* Assets.xcassets */,
@@ -149,12 +153,22 @@
 			path = GetirHackathonUITests;
 			sourceTree = "<group>";
 		};
-		EFBB6AF41E6C64DF00483EFD /* RequestConnection */ = {
+		EFBB6AF41E6C64DF00483EFD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				EFBB6AF71E6C692B00483EFD /* Object */,
 				EFBB6AF51E6C64FE00483EFD /* RequestConnection.swift */,
+				EFBB6AFA1E6C76A100483EFD /* ApiParse.swift */,
 			);
-			name = RequestConnection;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EFBB6AF71E6C692B00483EFD /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				EFBB6AF81E6C695000483EFD /* Elements.swift */,
+			);
+			name = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,7 +354,9 @@
 			files = (
 				EFBB6AF61E6C64FE00483EFD /* RequestConnection.swift in Sources */,
 				EFBB6AC91E6C629A00483EFD /* ViewController.swift in Sources */,
+				EFBB6AF91E6C695000483EFD /* Elements.swift in Sources */,
 				EFBB6AC71E6C629A00483EFD /* AppDelegate.swift in Sources */,
+				EFBB6AFB1E6C76A100483EFD /* ApiParse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
