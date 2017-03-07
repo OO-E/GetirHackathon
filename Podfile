@@ -13,6 +13,7 @@ pod 'SwiftyJSON','2.3.2'
 pod 'FlatColor'
 pod 'BirdHUD'
 pod 'OneSignal'
+pod 'TIHexColor'
 
 end
 #sudo gem install cocoapods -v 1.0.0

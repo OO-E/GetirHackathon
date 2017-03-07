@@ -7,6 +7,7 @@ PODS:
   - OneSignal (2.3.5)
   - SnapKit (0.21.1)
   - SwiftyJSON (2.3.2)
+  - TIHexColor (1.0)
 
 DEPENDENCIES:
   - Alamofire (= 3.4.1)
@@ -17,6 +18,7 @@ DEPENDENCIES:
   - OneSignal
   - SnapKit (= 0.21.1)
   - SwiftyJSON (= 2.3.2)
+  - TIHexColor
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
@@ -27,7 +29,8 @@ SPEC CHECKSUMS:
   OneSignal: 4cb42948ebc141bd5deb54d3fda25105db94f6d4
   SnapKit: bbad04cb016c7cead63965f16b00c09318d271ee
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  TIHexColor: cd08f26b7b0ca5056991beac157c8c0004efade1
 
-PODFILE CHECKSUM: 0938da6ee16d2c961f6d461220744c0b15e4e939
+PODFILE CHECKSUM: 792da466137ce27113cc9d5046c1f0282be52b91
 
 COCOAPODS: 1.0.1

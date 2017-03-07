@@ -8,6 +8,7 @@
 
 import UIKit
 import FlatColor
+import TIHexColor
 
 class ViewController: UIViewController {
 
@@ -62,7 +63,7 @@ class ViewController: UIViewController {
                 let shapeLayer = CAShapeLayer()
                 shapeLayer.path = circlePath.CGPath
                 shapeLayer.fillColor = UIColor.clearColor().CGColor
-                shapeLayer.strokeColor = getRandomColor().CGColor
+                shapeLayer.strokeColor = UIColor.colorWithHexString(circle.color, alpha: 1.0).CGColor
                 shapeLayer.lineWidth = 3.0
                 view.layer.addSublayer(shapeLayer)
             
@@ -73,7 +74,7 @@ class ViewController: UIViewController {
                 vw_Rct.frame = CGRect(x: rectangle.position.x, y: rectangle.position.y, width: rectangle.width, height: rectangle.height)
                 vw_Rct.backgroundColor = UIColor.clearColor()
                 vw_Rct.layer.borderWidth = 1
-                vw_Rct.layer.borderColor = getRandomColor().CGColor
+                vw_Rct.layer.borderColor = UIColor.colorWithHexString(rectangle.color, alpha: 1.0).CGColor
                 
                 
                 self.view.addSubview(vw_Rct)
@@ -85,14 +86,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func getRandomColor() -> UIColor{
-        //Generate between 0 to 1
-        let red:CGFloat = CGFloat(drand48())
-        let green:CGFloat = CGFloat(drand48())
-        let blue:CGFloat = CGFloat(drand48())
-        
-        return UIColor(red:red, green: green, blue: blue, alpha: 1.0)
-    }
+    
 
 }
 
